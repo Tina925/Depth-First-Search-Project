@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/mengt/Dropbox/Purdue/2021 fall/ECE 264/hw09/maze.h
+stdbool.h
+-
+
+C:/Users/mengt/Dropbox/Purdue/2021 fall/ECE 264/hw09/mazehelper.h
+maze.h
+C:/Users/mengt/Dropbox/Purdue/2021 fall/ECE 264/hw09/maze.h
+
+C:/Users/mengt/Dropbox/Purdue/2021 fall/ECE 264/hw09/path.h
+stdbool.h
+-
+maze.h
+C:/Users/mengt/Dropbox/Purdue/2021 fall/ECE 264/hw09/maze.h
+
+C:/Users/mengt/Dropbox/Purdue/2021 fall/ECE 264/hw09/solver.c
+stdlib.h
+-
+stdbool.h
+-
+stdio.h
+-
+solver.h
+C:/Users/mengt/Dropbox/Purdue/2021 fall/ECE 264/hw09/solver.h
+path.h
+C:/Users/mengt/Dropbox/Purdue/2021 fall/ECE 264/hw09/path.h
+mazehelper.h
+C:/Users/mengt/Dropbox/Purdue/2021 fall/ECE 264/hw09/mazehelper.h
+
+C:/Users/mengt/Dropbox/Purdue/2021 fall/ECE 264/hw09/solver.h
+maze.h
+C:/Users/mengt/Dropbox/Purdue/2021 fall/ECE 264/hw09/maze.h
+
